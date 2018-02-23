@@ -12,7 +12,9 @@
 // 速查表：http://tool.oschina.net/uploads/apidocs/jquery/regexp.html
 // 教程：http://www.runoob.com/regexp/regexp-syntax.html
 
-//TODO 复习一下，写几个实例
+// 在linux下grep也可使用正则表达式，但需要考虑转义问题例如'k\{2\}'与'kp\?'其中?与{}都需要转义
+// 常用规则 ^ $ . * ? [] {,} \ () |(“(z|f)ood”匹配“zood”或“food”) +(等价于{1,})
+// 部分转义 \b(单词边界) \n \s(匹配任何空白字符，包括空格、制表符、换页符等等。等价于[ \f\n\r\t\v]。)
 
 $str = '/filename.ext/12';
 $isMatched = preg_match('/filename\.ext/', $str, $matches);
