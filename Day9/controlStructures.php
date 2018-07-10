@@ -46,7 +46,9 @@ break;
  */
 
 // declare
-// TODO: 没看懂什么意思
+// 牵扯到了zend与汇编
+// 参考：https://my.oschina.net/Jacker/blog/32936
+//      https://blog.csdn.net/udefined/article/details/24333333
 
 // return
 /**
